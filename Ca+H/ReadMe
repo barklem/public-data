@@ -1,0 +1,19 @@
+ReadMe
+--------------------------------------------------------------------------------
+This archive contains the final rate coefficient results for Ca+H from 
+"Estimating excitation and charge transfer in low-energy hydrogen atom 
+collisions with neutral atoms: Theory, comparisons, and first application to Ca"
+by Paul S. Barklem
+
+The files are:
+
+states.dat - ascii file containing the labels of the states, and energies [cm-1]
+*_K.rates  - ascii files containing the tabulated rate coefficients [cm3/s]
+*_K.max    - ascii files conatining the maximum value among the various models
+*_K.min    - ascii files conatining the minimum value among the various models
+
+The files are in the form (row,column) = (final state, initial state), as 
+defined by the labels in the file states.dat
+
+Paul Barklem, February 2016
+--------------------------------------------------------------------------------
