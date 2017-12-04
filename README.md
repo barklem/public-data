@@ -1,4 +1,4 @@
 # public-data
 Public data repository.  I am gradually migrating my data here from my web page.
 
-For the time being, new O+H inelastic collision data is available.
+For the time being, new O+H inelastic collision data is available, as well as older Ca+H and O+e data.
