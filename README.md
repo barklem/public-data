@@ -119,6 +119,7 @@ High resolution observed optical spectra for 118 nearby stars from the Spectrosc
 <li> F,G, and K dwarfs, with alpha-enhancement <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s (with alpha enhancement of +0.4 dex)
 <li> G and K giants, <br>Teff: 4400 to 6000 K, logg: 1.0 to 3.4, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s
 <li> Metal-poor giants, with alpha-enhancement <br>Teff: 4500 to 5500 K, logg: 1.0 to 3.0, [Fe/H]: -3.0 to -2.0, microturbulence: 1.5 km/s (with alpha enhancement of +0.4 dex)
+</ul>
 
 A short IDL routine to read the profiles, loadprofile.pro, is also provided.  The profiles are labelled with files names of the form:<p>
 
@@ -135,7 +136,6 @@ synth is the line formation code used<br>
 These are hydrogen line profiles calculated as described in <a href="http://adsabs.harvard.edu/abs/2002A%26A...385..951B" target="_top">Barklem et al (2002)</a> (i.e. 1D, LTE, 1997 epoch MARCS, Stehle + BPO) using self-broadening theory developed in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26A...363.1091B" target="_top">Barklem et al (2000)</a>.  MLT parameters alpha = 0.5 and y = 0.5 are used in all these model calculations.  Note the line formation calculation includes no micro- or macroturbulence, but this has no effect on the wings.  The line cores are not expected to form in the photosphere or in anything close to LTE, and thus are not reliable and should not be used for any interpretation of observations. <p>
 
 The codes used for these line formation calculations are available <a href="https://github.com/barklem/hlinop">here</a>.
-</ul>
 
 
 <spacer type="vertical" size=20>
@@ -144,7 +144,9 @@ The codes used for these line formation calculations are available <a href="http
 </a>
 
 <spacer type="vertical" size=20>
-<H4>HERES survey</H4> (dir: HERES)
+<H4>HERES survey</H4> 
+
+(directory: <a href="https://github.com/barklem/public-data/HERES">HERES</a>) <p>
 
 These are the data obtained in the HERES survey <a href="http://adsabs.harvard.edu/abs/2005A%26A...439..129B">Barklem et al (2005)</a>.   Table 1 is the stellar sample (coordinates and radial velocities) and Table 2 the derived stellar properties (parameters, chemical abundances).
 <p>
