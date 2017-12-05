@@ -36,13 +36,19 @@ Index:
 <H4>Collisional broadening by hydrogen </H4>
 
 <ul>
-<li> Data for 4891 spectral lines between 2300 and 13000 Angstroms of elements from Li to Ni  (dir: broadening - neutrals)
+<li> Data for 4891 spectral lines between 2300 and 13000 Angstroms of elements from Li to Ni  
+
+
+(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-ionised">broadening-neutral</a>) <p>	
 
 These data were published in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26AS..142..467B" target="_top">Barklem et al (2000)</a> and are incorporated in VALD.<p>
 
 Due to its low loggf, we missed Mg I 4571.  A specific calculation using Thomas-Fermi-Dirac wave functions gives sigma (10000 m/s) = 231 atomic units, alpha = 0.260.<p>
 
-<li> Data for Fe II and Cr II lines (dir: broadening - ionised)
+<li> Data for Fe II and Cr II lines 
+
+
+(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-ionised">broadening-ionised</a>) <p>
 
 The data for Fe II was published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2005A%26A...435..373B" target="_top">Barklem & Aspelund-Johansson (2005)</a>.  The Cr II data was calculated in 2007 due to a request and used in <a href = "http://adsabs.harvard.edu/abs/2007ApJ...667.1267S">Sobeck et al (2007)</a>.  The calculations used the method described in Barklem & Aspelund-Johansson (2005), so if you use the Cr II data you can cite that paper for the method.  These data are also in VALD.<p>
 </ul>
@@ -55,7 +61,7 @@ A general description of how to use Anstee, Barklem & O'Mara theory data is give
 <ul>
 <li> Data for Li + e inelastic collisions: See Yeisson Osorio's <a href="http://www.astro.uu.se/~yeisson/"> page</a>.
 
-<li> Data for O + e inelastic collisions (dir: inelastic - O+e)
+<li> Data for O + e inelastic collisions (directory: inelastic-O+e)
 
 These data were published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2007A%26A...462..781B">Barklem (2007)</a>, though here I have extended the temperature range up to 100000 K, and included the data for all 19 spectroscopic states as only the data for the lowest 7 were included explicitly in the paper.
 </ul>
@@ -64,23 +70,23 @@ These data were published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_quer
 <H4>Inelastic hydrogen collision data</H4>
 
 <ul>
-<li>Data for Li + H inelastic collisions (dir: inelastic - Li+H)
+<li>Data for Li + H inelastic collisions (directory: inelastic-Li+H)
 
 These data were published in <a href="http://adsabs.harvard.edu/abs/2003A%26A...409L...1B" target="_top"> Barklem et al (2003)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2003PhRvA..68f2703B">Belyaev & Barklem (2003)</a>.<p>
 
-<li>Data for Na + H inelastic collisions (dir: inelastic - Na+H)
+<li>Data for Na + H inelastic collisions (directory: inelastic-Na+H)
 
 These data were published in <a href="http://adsabs.harvard.edu/abs/2010A&A...519A..20B">Barklem et al (2010)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2010PhRvA..81c2706B"> Belyaev et al (2010)</a>.<p>
 
-<li>Data for Mg + H inelastic collisions (dir: inelastic - Mg+H)
+<li>Data for Mg + H inelastic collisions (directory: inelastic-Mg+H)
 
 These data were published in <a href="http://adsabs.harvard.edu/abs/2012A&A...541A..80B">Barklem et al (2012)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2012PhRvA..85c2704B"> Belyaev et al (2012)</a>.<p>
 
-<li>Data for Ca + H inelastic collisions (dir: inelastic - Ca+H)
+<li>Data for Ca + H inelastic collisions (directory: inelastic-Ca+H)
 
 These data were published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d2705B">Barklem (2016)</a>, with an <a href="http://esoads.eso.org/abs/2017PhRvA..95f9906B">erratum</a>.<p>
   
-<li>Data for O + H inelastic collisions (dir: inelastic - O+H)
+<li>Data for O + H inelastic collisions (dir: inelastic-O+H)
 
 These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
 
@@ -89,8 +95,11 @@ These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem 
 <spacer type="vertical" size=20>
 <H4>Partition functions</H4>
 
+
+(directory: <a href="https://github.com/barklem/public-data/tree/master/molecules">molecules</a>) <p>
+
 <ul>
-<li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated (dir: molecules)
+<li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated 
 These data were calculated by <a href="http://esoads.eso.org/abs/2016A%26A...588A..96B">Barklem & Collet (2016)</a>
 </ul>
 
@@ -115,7 +124,7 @@ High resolution observed optical spectra for 118 nearby stars from the Spectrosc
 <H4>Hydrogen line grids</H4> (dir: hydrogen line grids)
 
 
-(directory: <a href="https://github.com/barklem/public-data/hydrogen line grids">hydrogen line grids</a>) <p>
+(directory: <a href="https://github.com/barklem/public-data/tree/master/hydrogen-line-grids">hydrogen-line-grids</a>) <p>
 
 <ul>
 <li> F,G, and K dwarfs, <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s 
@@ -149,7 +158,7 @@ The codes used for these line formation calculations are available <a href="http
 <spacer type="vertical" size=20>
 <H4>HERES survey</H4> 
 
-(directory: <a href="https://github.com/barklem/public-data/HERES">HERES</a>) <p>
+(directory: <a href="https://github.com/barklem/public-data/tree/master/HERES">HERES</a>) <p>
 
 These are the data obtained in the HERES survey <a href="http://adsabs.harvard.edu/abs/2005A%26A...439..129B">Barklem et al (2005)</a>.   Table 1 is the stellar sample (coordinates and radial velocities) and Table 2 the derived stellar properties (parameters, chemical abundances).
 <p>
