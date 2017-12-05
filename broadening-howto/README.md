@@ -1,8 +1,4 @@
 <html>
-
-<head>
-<title></title>
-</head>
 <BODY BGCOLOR="#FFFFFF" TEXT="#000070" >
 
 <H2>How to use Anstee, Barklem & O'Mara data in spectral synthesis calculations</H2>
