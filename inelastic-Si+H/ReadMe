@@ -1,0 +1,112 @@
+J/A+A/572/A103    Inelastic silicon-hydrogen collision data     (Belyaev+, 2014)
+================================================================================
+Inelastic silicon-hydrogen collision data for non-LTE applications in stellar
+atmospheres.
+    Belyaev A.K., Yakovleva S.A.., Barklem P.S.
+   <Astron. Astrophys. 572, A103 (2014)>
+   =2014A&A...572A.103B
+================================================================================
+ADC_Keywords: Atomic physics
+Keywords: atomic data - line: formation - stars: abundances
+
+Abstract:
+    Inelastic processes in low-energy Si+H and Si^+^+H^-^ collisions are
+    treated for the states from the ground state up to the ionic state, in
+    order to provide rate coefficients needed for non-LTE modeling of Si
+    in cool stellar atmospheres.
+
+    Electronic molecular structure is determined using a recently proposed
+    model approach based on an asymptotic method in combination with
+    available ab initio potentials. Nonadiabatic nuclear dynamics are
+    treated by means of a combination of multichannel formulas and the
+    branching-probability-current method, based on the Landau-Zener model
+    for nonadiabatic transition probabilities.
+
+Description:
+    Rate coefficients in cm^3^/s for inelastic Si+H and Si^+^+H^-^
+    collisions for temperatures from T=1000K to T=10000K.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .   This file
+rt_1000.dat    281       27   Rate coefficients at T=1000K (table 2)
+rt_2000.dat    281       27   Rate coefficients at T=2000K (table 3)
+rt_3000.dat    281       27   Rate coefficients at T=3000K (table 4)
+rt_4000.dat    281       27   Rate coefficients at T=4000K (table 5)
+rt_5000.dat    281       27   Rate coefficients at T=5000K (table 6)
+rt_6000.dat    281       27   Rate coefficients at T=6000K (table 7)
+rt_7000.dat    281       27   Rate coefficients at T=7000K (table 8)
+rt_8000.dat    281       27   Rate coefficients at T=8000K (table 8)
+rt_9000.dat    281       27   Rate coefficients at T=9000K (table 10)
+rt_10000.dat   281       27   Rate coefficients at T=10000K (table 11)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: rt_*.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label  Explanations
+--------------------------------------------------------------------------------
+   1- 12  A12   ---     State  Initial state of Si in collisions
+                                with H or ionic state
+  14- 21  E8.3  cm+3/s  RC1    Rate coefficient for transition to
+                                Si(3p^2^ ^3^P) + H
+  24- 31  E8.3  cm+3/s  RC2    Rate coefficient for transition to
+                                Si(3p^2^ ^1^D) + H
+  34- 41  E8.3  cm+3/s  RC3    Rate coefficient for transition to
+                                Si(3p^2^ ^1^S) + H
+  44- 51  E8.3  cm+3/s  RC4    rate coefficient for transition to
+                                Si(3p4s ^3^P) + H
+  54- 61  E8.3  cm+3/s  RC5    Rate coefficient for transition to
+                                Si(3p4s ^1^P) + H
+  64- 71  E8.3  cm+3/s  RC6    Rate coefficient for transition to
+                                Si(3s3p^3^ ^3^D) + H
+  74- 81  E8.3  cm+3/s  RC7    Rate coefficient for transition to
+                                Si(3p4p ^1^P) + H
+  84- 91  E8.3  cm+3/s  RC8    Rate coefficient for transition to
+                                Si(3p3d ^1^D) + H
+  94-101  E8.3  cm+3/s  RC9    Rate coefficient for transition to
+                                Si(3p4p ^3^D) + H
+ 104-111  E8.3  cm+3/s  RC10   Rate coefficient for transition to
+                                Si(3p4p ^3^P) + H
+ 114-121  E8.3  cm+3/s  RC11   Rate coefficient for transition to
+                                Si(3p4p ^3^S) + H
+ 124-131  E8.3  cm+3/s  RC12   Rate coefficient for transition to
+                                Si(3p3d ^3^F) + H
+ 134-141  E8.3  cm+3/s  RC13   Rate coefficient for transition to
+                                Si(3p4p ^1^D) + H
+ 144-151  E8.3  cm+3/s  RC14   Rate coefficient for transition to
+                                Si(3p3d ^3^P) + H
+ 154-161  E8.3  cm+3/s  RC15   Rate coefficient for transition to
+                                Si(3p4p ^1^S) + H
+ 164-171  E8.3  cm+3/s  RC16   Rate coefficient for transition to
+                                Si(3p3d ^1^F) + H
+ 174-181  E8.3  cm+3/s  RC17   Rate coefficient for transition to
+                                Si(3p3d ^1^P) + H
+ 184-191  E8.3  cm+3/s  RC18   Rate coefficient for transition to
+                                Si(3p3d ^3^D) + H
+ 194-201  E8.3  cm+3/s  RC19   Rate coefficient for transition to
+                                Si(3p5s ^3^P) + H
+ 204-211  E8.3  cm+3/s  RC20   Rate coefficient for transition to
+                                Si(3p5s ^1^P) + H
+ 214-221  E8.3  cm+3/s  RC21   Rate coefficient for transition to
+                                Si(3p4d ^1^D) + H
+ 224-231  E8.3  cm+3/s  RC22   Rate coefficient for transition to
+                                Si(3p4d ^3^P) + H
+ 234-241  E8.3  cm+3/s  RC23   Rate coefficient for transition to
+                                Si(3p5p ^1^P) + H
+ 244-251  E8.3  cm+3/s  RC24   Rate coefficient for transition to
+                                Si(3p5p ^3^D) + H
+ 254-261  E8.3  cm+3/s  RC25   Rate coefficient for transition to
+                                Si(3p5p ^3^P) + H
+ 264-271  E8.3  cm+3/s  RC26   Rate coefficient for transition to
+                                Si(3p4d ^3^F) + H
+ 274-281  E8.3  cm+3/s  RC27   Rate coefficient for transition to
+                                Si^+^ + H^-^
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    A.K. Belyaev, andrey.k.belyaev(at)gmail.com
+
+================================================================================
+(End)  Andrey Belyaev [Uppsala University], Patricia Vannier [CDS]   26-Sep-2014

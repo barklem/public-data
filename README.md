@@ -39,7 +39,7 @@ Index:
 <li> Data for 4891 spectral lines between 2300 and 13000 Angstroms of elements from Li to Ni  
 
 
-(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-ionised">broadening-neutral</a>) <p>	
+(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-neutral">broadening-neutral</a>) <p>	
 
 These data were published in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26AS..142..467B" target="_top">Barklem et al (2000)</a> and are incorporated in VALD.<p>
 
@@ -61,9 +61,12 @@ A general description of how to use Anstee, Barklem & O'Mara theory data is give
 <ul>
 <li> Data for Li + e inelastic collisions: See Yeisson Osorio's <a href="http://www.astro.uu.se/~yeisson/"> page</a>.
 <li> Data for O + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+e">inelastic-O+e</a>)
-<li> Data for Mg + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mg+e">inelastic-Mg+e</a>)
 
 These data were published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2007A%26A...462..781B">Barklem (2007)</a>, though here I have extended the temperature range up to 100000 K, and included the data for all 19 spectroscopic states as only the data for the lowest 7 were included explicitly in the paper.
+
+<li> Data for Mg + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mg+e">inelastic-Mg+e</a>)
+
+These data were published in <a href="http://esoads.eso.org/abs/2017A%26A...606A..11B">Barklem et al. (2017)</a>
 </ul>
 
 <spacer type="vertical" size=20>
@@ -82,6 +85,10 @@ These data were published in <a href="http://adsabs.harvard.edu/abs/2010A&A...51
 
 These data were published in <a href="http://adsabs.harvard.edu/abs/2012A&A...541A..80B">Barklem et al (2012)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2012PhRvA..85c2704B"> Belyaev et al (2012)</a>.<p>
 
+<li>Data for Si + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Si+H">inelastic-K+H</a>)
+
+These data were published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Barklem (2017)</a>.<p>
+
 <li>Data for Ca + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ca+H">inelastic-Ca+H</a>)
 
 These data were published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d2705B">Barklem (2016)</a>, with an <a href="http://esoads.eso.org/abs/2017PhRvA..95f9906B">erratum</a>.<p>
@@ -89,6 +96,12 @@ These data were published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d27
 <li>Data for O + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+H">inelastic-O+H</a>)
 
 These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
+ 
+<li>Data for K + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-K+H">inelastic-K+H</a>)
+<li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-K+H</a>)
+
+These are the LCAO data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
+
 
 </ul>
 
