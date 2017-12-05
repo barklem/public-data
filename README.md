@@ -100,7 +100,7 @@ These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem 
 <li>Data for K + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-K+H">inelastic-K+H</a>)
 <li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-K+H</a>)
 
-These are the LCAO data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
+These are the LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
 
 
 </ul>
