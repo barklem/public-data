@@ -85,7 +85,7 @@ These data were published in <a href="http://adsabs.harvard.edu/abs/2010A&A...51
 
 These data were published in <a href="http://adsabs.harvard.edu/abs/2012A&A...541A..80B">Barklem et al (2012)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2012PhRvA..85c2704B"> Belyaev et al (2012)</a>.<p>
 
-<li>Data for Si + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Si+H">inelastic-K+H</a>)
+<li>Data for Si + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Si+H">inelastic-Si+H</a>)
 
 These data were published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Barklem (2017)</a>.<p>
 
