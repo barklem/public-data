@@ -41,7 +41,7 @@ Index:
 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-neutral">broadening-neutral</a>) <p>	
 
-These data were published in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26AS..142..467B" target="_top">Barklem et al (2000)</a> and are incorporated in VALD.<p>
+Published in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26AS..142..467B" target="_top">Barklem et al (2000)</a> and are incorporated in VALD.<p>
 
 Due to its low loggf, we missed Mg I 4571.  A specific calculation using Thomas-Fermi-Dirac wave functions gives sigma (10000 m/s) = 231 atomic units, alpha = 0.260.<p>
 
@@ -62,11 +62,11 @@ A general description of how to use Anstee, Barklem & O'Mara theory data is give
 <li> Data for Li + e inelastic collisions: See Yeisson Osorio's <a href="http://www.astro.uu.se/~yeisson/"> page</a>.
 <li> Data for O + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+e">inelastic-O+e</a>)
 
-These data were published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2007A%26A...462..781B">Barklem (2007)</a>, though here I have extended the temperature range up to 100000 K, and included the data for all 19 spectroscopic states as only the data for the lowest 7 were included explicitly in the paper.
+Published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2007A%26A...462..781B">Barklem (2007)</a>, though here I have extended the temperature range up to 100000 K, and included the data for all 19 spectroscopic states as only the data for the lowest 7 were included explicitly in the paper.
 
 <li> Data for Mg + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mg+e">inelastic-Mg+e</a>)
 
-These data were published in <a href="http://esoads.eso.org/abs/2017A%26A...606A..11B">Barklem et al. (2017)</a>
+Published in <a href="http://esoads.eso.org/abs/2017A%26A...606A..11B">Barklem et al. (2017)</a>
 </ul>
 
 <spacer type="vertical" size=20>
@@ -75,32 +75,32 @@ These data were published in <a href="http://esoads.eso.org/abs/2017A%26A...606A
 <ul>
 <li>Data for Li + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Li+H">inelastic-Li+H</a>)
 
-These data were published in <a href="http://adsabs.harvard.edu/abs/2003A%26A...409L...1B" target="_top"> Barklem et al (2003)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2003PhRvA..68f2703B">Belyaev & Barklem (2003)</a>.<p>
+Published in <a href="http://adsabs.harvard.edu/abs/2003A%26A...409L...1B" target="_top"> Barklem et al (2003)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2003PhRvA..68f2703B">Belyaev & Barklem (2003)</a>.<p>
 
 <li>Data for Na + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Na+H">inelastic-Na+H</a>)
 
-These data were published in <a href="http://adsabs.harvard.edu/abs/2010A&A...519A..20B">Barklem et al (2010)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2010PhRvA..81c2706B"> Belyaev et al (2010)</a>.<p>
+Published in <a href="http://adsabs.harvard.edu/abs/2010A&A...519A..20B">Barklem et al (2010)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2010PhRvA..81c2706B"> Belyaev et al (2010)</a>.<p>
 
 <li>Data for Mg + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mg+H">inelastic-Mg+H</a>)
 
-These data were published in <a href="http://adsabs.harvard.edu/abs/2012A&A...541A..80B">Barklem et al (2012)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2012PhRvA..85c2704B"> Belyaev et al (2012)</a>.<p>
+Published in <a href="http://adsabs.harvard.edu/abs/2012A&A...541A..80B">Barklem et al (2012)</a> and are based on cross sections published in <a href="http://adsabs.harvard.edu/abs/2012PhRvA..85c2704B"> Belyaev et al (2012)</a>.<p>
 
 <li>Data for Si + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Si+H">inelastic-Si+H</a>)
 
-These data were published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Belyaev et al (2014)</a>.<p>
+Published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Belyaev et al (2014)</a>.<p>
 
 <li>Data for Ca + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ca+H">inelastic-Ca+H</a>)
 
-These data were published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d2705B">Barklem (2016)</a>, with an <a href="http://esoads.eso.org/abs/2017PhRvA..95f9906B">erratum</a>.<p>
+Published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d2705B">Barklem (2016)</a>, with an <a href="http://esoads.eso.org/abs/2017PhRvA..95f9906B">erratum</a>.<p>
   
 <li>Data for O + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+H">inelastic-O+H</a>)
 
-These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
+Published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
  
 <li>Data for K + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-K+H">inelastic-K+H</a>)
 <li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-Rb+H</a>)
 
-These are the LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
+LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
 
 
 </ul>
@@ -112,8 +112,7 @@ These are the LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.
 (directory: <a href="https://github.com/barklem/public-data/tree/master/molecules">molecules</a>) <p>
 
 <ul>
-<li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated 
-These data were calculated by <a href="http://esoads.eso.org/abs/2016A%26A...588A..96B">Barklem & Collet (2016)</a>
+<li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated and published in <a href="http://esoads.eso.org/abs/2016A%26A...588A..96B">Barklem & Collet (2016)</a>
 </ul>
 
 <spacer type="vertical" size=20>
