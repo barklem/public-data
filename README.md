@@ -114,6 +114,9 @@ High resolution observed optical spectra for 118 nearby stars from the Spectrosc
 <spacer type="vertical" size=20>
 <H4>Hydrogen line grids</H4> (dir: hydrogen line grids)
 
+
+(directory: <a href="https://github.com/barklem/public-data/hydrogen line grids">hydrogen line grids</a>) <p>
+
 <ul>
 <li> F,G, and K dwarfs, <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s 
 <li> F,G, and K dwarfs, with alpha-enhancement <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s (with alpha enhancement of +0.4 dex)
