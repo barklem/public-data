@@ -53,7 +53,7 @@ Due to its low loggf, we missed Mg I 4571.  A specific calculation using Thomas-
 The data for Fe II was published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2005A%26A...435..373B" target="_top">Barklem & Aspelund-Johansson (2005)</a>.  The Cr II data was calculated in 2007 due to a request and used in <a href = "http://adsabs.harvard.edu/abs/2007ApJ...667.1267S">Sobeck et al (2007)</a>.  The calculations used the method described in Barklem & Aspelund-Johansson (2005), so if you use the Cr II data you can cite that paper for the method.  These data are also in VALD.<p>
 </ul>
 
-A general description of how to use Anstee, Barklem & O'Mara theory data is given <a href="http://www.astro.uu.se/~barklem/howto.html" target="RIGHT">here</a>.  A general program for interpolating data for broadening of lines neutral atoms from precomputed tables is given <a href="http://www.astro.uu.se/~barklem/cross.html" target="RIGHT">here</a>
+A general description of how to use Anstee, Barklem & O'Mara theory data is given <a href="https://github.com/barklem/public-data/tree/master/broadening-howto/howto.html">here</a>.  A general program for interpolating data for broadening of lines neutral atoms from precomputed tables is given <a href="https://github.com/barklem/abo-cross">here</a>
 
 <spacer type="vertical" size=20>
 <H4>Inelastic electron collision data</H4>
