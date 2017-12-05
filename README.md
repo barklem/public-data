@@ -87,7 +87,7 @@ These data were published in <a href="http://adsabs.harvard.edu/abs/2012A&A...54
 
 <li>Data for Si + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Si+H">inelastic-Si+H</a>)
 
-These data were published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Barklem (2017)</a>.<p>
+These data were published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Belyaev et al (2014)</a>.<p>
 
 <li>Data for Ca + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ca+H">inelastic-Ca+H</a>)
 
@@ -98,7 +98,7 @@ These data were published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d27
 These data were published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
  
 <li>Data for K + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-K+H">inelastic-K+H</a>)
-<li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-K+H</a>)
+<li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-Rb+H</a>)
 
 These are the LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
 
