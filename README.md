@@ -60,8 +60,8 @@ A general description of how to use Anstee, Barklem & O'Mara theory data is give
 
 <ul>
 <li> Data for Li + e inelastic collisions: See Yeisson Osorio's <a href="http://www.astro.uu.se/~yeisson/"> page</a>.
-
 <li> Data for O + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+e">inelastic-O+e</a>)
+<li> Data for Mg + e inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mg+e">inelastic-Mg+e</a>)
 
 These data were published in <a href="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2007A%26A...462..781B">Barklem (2007)</a>, though here I have extended the temperature range up to 100000 K, and included the data for all 19 spectroscopic states as only the data for the lowest 7 were included explicitly in the paper.
 </ul>

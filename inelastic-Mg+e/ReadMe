@@ -1,0 +1,71 @@
+J/A+A/vol/page   Inelastic e+Mg collision data                   (Barklem+ 2017)
+================================================================================
+Inelastic e+Mg collision data and its impact on modelling stellar and supernova
+ spectra
+P. S. Barklem1, Y. Osorio, D. V. Fursa, I. Bray, O. Zatsarinny, K. Bartschat,
+  and A. Jerkstrand
+    <Astron. Astrophys. vol, page (2017)>
+    =2017A&A...VVV.ppppB     (SIMBAD/NED BibCode)
+================================================================================
+Keywords: atomic data --- line: profiles
+
+Description:
+  The file states.dat lists the considered states.  The remaining files then
+  provide the effective collision strength matrices for various temperatures 
+  from the convergent close coupling (CCC) and  B-spline R-matrix (BSR)
+  calculations. 
+
+File Summary:
+--------------------------------------------------------------------------------
+  FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .   This file
+states.dat      25       25   States and their energies
+500k_b.dat     250       25   BSR data for 500 K
+1000k_b.dat    250       25   BSR data for 1000 K
+2000k_b.dat    250       25   BSR data for 1000 K
+3000k_b.dat    250       25   BSR data for 1000 K
+4000k_b.dat    250       25   BSR data for 1000 K
+5000k_b.dat    250       25   BSR data for 1000 K
+6000k_b.dat    250       25   BSR data for 1000 K
+7000k_b.dat    250       25   BSR data for 1000 K
+8000k_b.dat    250       25   BSR data for 1000 K
+9000k_b.dat    250       25   BSR data for 1000 K
+10000k_b.dat   250       25   BSR data for 10000 K
+15000k_b.dat   250       25   BSR data for 15000 K
+20000k_b.dat   250       25   BSR data for 20000 K
+500k_c.dat     250       25   CCC data for 500 K
+1000k_c.dat    250       25   CCC data for 1000 K
+2000k_c.dat    250       25   CCC data for 1000 K
+3000k_c.dat    250       25   CCC data for 1000 K
+4000k_c.dat    250       25   CCC data for 1000 K
+5000k_c.dat    250       25   CCC data for 1000 K
+6000k_c.dat    250       25   CCC data for 1000 K
+7000k_c.dat    250       25   CCC data for 1000 K
+8000k_c.dat    250       25   CCC data for 1000 K
+9000k_c.dat    250       25   CCC data for 1000 K
+10000k_c.dat   250       25   CCC data for 10000 K
+15000k_c.dat   250       25   CCC data for 15000 K
+20000k_c.dat   250       25   CCC data for 20000 K
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: states.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units           Label   Explanations
+--------------------------------------------------------------------------------
+   1- 3   I3    ---             index   index
+   4- 14  A11   ---             label   term label
+  15- 18  I4    ---             g       statistical weight
+  19- 25  F7.3   eV             E       term energy in eV  			  
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: *_b.dat and *_c.dat
+--------------------------------------------------------------------------------
+   Bytes Format    Units  Label         Explanations
+--------------------------------------------------------------------------------
+   1-250  25E10.2   ---   Upsilon       Effective collision strengths matrix (1)   
+--------------------------------------------------------------------------------
+Note (1): The matrices follow the ordering of indexes in states.data; i.e. the 
+   transition 1-2 corresponds to element (1,2), noting the matrix is symmetric.
+================================================================================
+(End)          Paul Barklem [Uppsala University, Sweden]             16-Jun-2017
