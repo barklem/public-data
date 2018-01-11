@@ -7,6 +7,7 @@ by Paul S. Barklem
 
 The files are:
 
+table1.dat - ascii file containing input data for the calculation
 states.dat - ascii file containing the labels of the states, and energies [cm-1]
 *_K.rates  - ascii files containing the tabulated rate coefficients [cm3/s]
 *_K.max    - ascii files containing the maximum value among the various models
