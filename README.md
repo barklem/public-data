@@ -101,7 +101,11 @@ Published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
 <li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-Rb+H</a>)
 
 LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
+  
+<li>  Data for C + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-C+H">inelastic-C+H</a>)
+<li>  Data for N + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-N+H">inelastic-N+H</a>)
 
+Published in Amarsi & Barklem (2019, accepted for A&A).
 
 </ul>
 
