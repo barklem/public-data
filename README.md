@@ -102,10 +102,17 @@ Published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
 
 LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
   
-<li>  Data for C + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-C+H">inelastic-C+H</a>)
-<li>  Data for N + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-N+H">inelastic-N+H</a>)
+<li> Data for C + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-C+H">inelastic-C+H</a>)
+<li> Data for N + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-N+H">inelastic-N+H</a>)
 
-Published in Amarsi & Barklem (2019, accepted for A&A).
+Published in [Amarsi & Barklem (2019, accepted for A&A)](https://doi.org/10.1051/0004-6361/202037890).
+
+<li> Data for Mn + H inelastic collisions 
+(directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mn+H">inelastic-Mn+H</a>)
+<li> Data for Ti + H inelastic collisions 
+(directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ti+H">inelastic-Ti+H</a>)
+
+Published in [Grumer & Barklem (2020, accepted for A&A)](https://doi.org/10.1051/0004-6361/201937434).
 
 </ul>
 
