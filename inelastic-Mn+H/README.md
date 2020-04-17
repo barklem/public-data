@@ -1,6 +1,6 @@
-Archive: Mn+H rate coefficients  
+**Archive:** Mn+H rate coefficients  
 
-Publication:   
+**Publication:**   
 *Excitation and charge transfer in low-energy hydrogen atom collisions with neutral manganese and titanium*  
 J. Grumer, P. S. Barklem (2020, accepted A&A)  
 DOI: https://doi.org/10.1051/0004-6361/201937434
