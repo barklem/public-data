@@ -10,8 +10,8 @@ File         | Description
 `table1.tex` | LaTeX table with calculation input data
 `table3.tex` | LaTeX table with state labels and energies [cm-1]
 `states.dat` | ASCII file with state labels and energies [cm-1]
-`*_K.rates`  | Rate coefficients (**all**) [cm3/s]: **matrix form** (row, column) = (final, initial)
-`*_K.rat`    | Rate coefficients (**endothermic**) [cm3/s]: **list form** (by inital state into final states of higher energy)
+`rates/*_K.rates`  | Rate coefficients (**all**) [cm3/s]: **matrix form** (row, column) = (final, initial)
+`rates/*_K.rat`    | Rate coefficients (**endothermic**) [cm3/s]: **list form** (by inital state into final states of higher energy)
 
 States are defined (and ordered for the matrix form) according to the list in `states.dat` or `table3`.tex.  
 The number in `table#.tex` correspond to the table numbering in the article.
