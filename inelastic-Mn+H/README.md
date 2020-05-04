@@ -5,11 +5,11 @@
 J. Grumer, P. S. Barklem (2020, accepted A&A)  
 DOI: https://doi.org/10.1051/0004-6361/201937434
 
-File         | Description
--------------|--------------------------------------------------------------------------------------------------------
-`table1.tex` | LaTeX table with calculation input data
-`table3.tex` | LaTeX table with state labels and energies [cm-1]
-`states.dat` | ASCII file with state labels and energies [cm-1]
+File               | Description
+-------------------|--------------------------------------------------------------------------------------------------------
+`table1.tex`       | LaTeX table with calculation input data
+`table3.tex`       | LaTeX table with state labels and energies [cm-1]
+`states.dat`       | ASCII file with state labels and energies [cm-1]
 `rates/*_K.rates`  | Rate coefficients (**all**) [cm3/s]: **matrix form** (row, column) = (final, initial)
 `rates/*_K.rat`    | Rate coefficients (**endothermic**) [cm3/s]: **list form** (by inital state into final states of higher energy)
 
