@@ -2,17 +2,17 @@
 Collection of rates and branching fractions of atom-hydrogen collisions at low energies by Barklem and collegues
 (Uppsala University) determined from the LCAO model. Compiled by Jon Grumer, Uppsala University, 2020
 
-The data set is limited to the Mutual Neutralization channel starting from ions in their ground state,
+The data set is limited to Mutual Neutralization channels starting from ions in their ground state,
    A+ + H-  --->  A* + H + E_KER
 where A* denotes the atom in a possibly excited state and E_KER is the kinetic energy release in the reaction.
 
-Kinetic energy releases are derived from the listed energy levels (which are LS-term averaged energies) through
-   E_KER = E_i(A) - E_ea(H) + E_LS(A)
+Kinetic energy releases can be derived from the listed energy levels (which are LS-term averaged energies) through
+   E_KER = E_i(A) - E_ea(H) - E_LS(A)
 where E_i is the (first) ionization energy of atom A (should be between term-averaged levels), E_ea is the
 electron affinity of hydrogen and E_LS the term-averaged excitation energy of atom A.
 
 Note that these rates, and the derived branching fractions, asssume a Maxwellian velocity distribution
-of the reactants, and are thus mainly valid for such environments.
+of the reactants.
 
 References: see list under inelastic collisions at: https://github.com/barklem/public-data
 
