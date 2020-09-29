@@ -41,7 +41,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
 
   System   Final State           Energies               T = 1000 K           T = 3000 K             T = 5000 K            T = 7000 K            T = 9000 K
   ------- -------------  ----------------------    ------------------    ------------------    ------------------    ------------------    ------------------
-  Li+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Li+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Li+.1s2                 0.000000
   ----->  2s              0.000000     4.637520    8.950e-15     0.00    9.460e-15     0.00    1.460e-14     0.00    2.470e-14     0.00    4.200e-14     0.00
   ----->  2p              1.847860     2.789660    2.020e-10     0.11    1.610e-10     0.13    1.720e-10     0.17    1.990e-10     0.21    2.340e-10     0.26
@@ -51,7 +51,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4s              4.340942     0.296578    2.590e-16     0.00    1.780e-16     0.00    1.560e-16     0.00    1.460e-16     0.00    1.400e-16     0.00
 
 
-  C+H                        E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  C+H                        E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   C+.2p.2Po               0.005504
   ----->  3s.3Po          7.485298     3.020795    8.930e-12     0.00    8.040e-12     0.01    9.800e-12     0.01    1.281e-11     0.01    1.684e-11     0.02
   ----->  3s.1Po          7.684766     2.821327    2.616e-10     0.12    2.085e-10     0.15    2.206e-10     0.19    2.503e-10     0.23    2.886e-10     0.28
@@ -79,7 +79,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4p.1S          10.197912     0.308181    8.010e-17     0.00    5.500e-17     0.00    4.820e-17     0.00    4.490e-17     0.00    4.290e-17     0.00
 
 
-  N+H                        E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  N+H                        E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   N+.2p2.3P               0.011024
   ----->  2p3.4So_H*     10.198829     3.581110    2.280e-16     0.00    2.330e-16     0.00    3.340e-16     0.00    5.140e-16     0.00    7.880e-16     0.00
   ----->  3s.4P          10.332535     3.447404    2.509e-14     0.00    2.758e-14     0.00    4.355e-14     0.00    7.450e-14     0.00    1.257e-13     0.00
@@ -108,7 +108,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4p.2Po         13.342725     0.437214    2.310e-12     0.00    1.540e-12     0.00    1.320e-12     0.00    1.220e-12     0.00    1.160e-12     0.00
 
 
-  O+H                        E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  O+H                        E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   O+.4So                  0.000000
   ----->  3s.5So          9.136395     3.727464    5.510e-15     0.00    6.490e-15     0.00    1.130e-14     0.00    2.130e-14     0.00    3.900e-14     0.00
   ----->  3s.3So          9.511695     3.352164    7.120e-12     0.00    6.300e-12     0.01    7.590e-12     0.01    9.830e-12     0.01    1.290e-11     0.02
@@ -123,7 +123,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4p.3P          12.349198     0.514662    6.900e-11     0.04    4.500e-11     0.04    3.840e-11     0.04    3.510e-11     0.04    3.320e-11     0.04
 
 
-  Na+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Na+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Na+                     0.000000
   ----->  3s              0.000000     4.384882    1.720e-14     0.00    1.800e-14     0.00    2.730e-14     0.00    4.530e-14     0.00    7.520e-14     0.00
   ----->  3p              2.104012     2.280870    2.060e-09     1.33    1.570e-09     1.59    1.580e-09     1.89    1.710e-09     2.23    1.890e-09     2.61
@@ -133,7 +133,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  5s              4.116362     0.268521    7.530e-18     0.00    5.230e-18     0.00    4.610e-18     0.00    4.320e-18     0.00    4.140e-18     0.00
 
 
-  Mg+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Mg+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Mg+.3s                  0.000000
   ----->  3p.3Po          2.711534     4.180506    5.190e-12     0.00    4.350e-12     0.00    4.970e-12     0.00    6.140e-12     0.00    7.780e-12     0.01
   ----->  3p.1Po          4.345803     2.546238    7.910e-09     2.67    5.580e-09     2.86    5.180e-09     3.08    5.160e-09     3.29    5.290e-09     3.52
@@ -148,7 +148,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4d.1D           6.587856     0.304185    1.160e-16     0.00    7.990e-17     0.00    7.030e-17     0.00    6.560e-17     0.00    6.280e-17     0.00
 
 
-  Si+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Si+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Si+.2Po                 0.000000
   ----->  3p2.1S          1.908659     5.488830    8.270e-12     0.00    6.620e-12     0.00    7.060e-12     0.00    8.080e-12     0.01    9.450e-12     0.01
   ----->  3p4s.3Po        4.920065     2.477424    2.800e-10     0.10    2.280e-10     0.13    2.460e-10     0.16    2.830e-10     0.20    3.310e-10     0.25
@@ -176,7 +176,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  3p5p.3S         7.134288     0.263200    5.290e-19     0.00    3.690e-19     0.00    3.270e-19     0.00    3.060e-19     0.00    2.940e-19     0.00
 
 
-  K+H                        E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  K+H                        E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   K+                      0.000000
   ----->  4s              0.000000     3.586469    6.420e-12     0.00    5.650e-12     0.01    6.790e-12     0.01    8.790e-12     0.01    1.160e-11     0.02
   ----->  4p              1.609935     1.976534    9.110e-09     6.60    6.660e-09     7.51    6.420e-09     8.53    6.630e-09     9.62    7.020e-09    10.73
@@ -185,7 +185,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  5p              3.062534     0.523935    3.530e-10     0.26    2.310e-10     0.26    1.960e-10     0.26    1.790e-10     0.26    1.690e-10     0.26
 
 
-  Ca+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Ca+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Ca+.4s                  0.000000
   ----->  4s2.1S          0.000000     5.358961    3.480e-10     0.19    2.420e-10     0.21    2.250e-10     0.24    2.270e-10     0.26    2.360e-10     0.29
   ----->  4s4p.3Po        1.879352     3.479608    1.500e-09     0.83    1.040e-09     0.91    9.560e-10     1.00    9.540e-10     1.10    9.840e-10     1.20
@@ -201,7 +201,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  4s6s.3S         5.018166     0.340794    3.890e-15     0.00    2.640e-15     0.00    2.300e-15     0.00    2.130e-15     0.00    2.030e-15     0.00
 
 
-  Ti+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Ti+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Ti+.a4F                 0.000000
   ----->  a3F             0.000000     6.073925    3.918e-16     0.00    4.523e-16     0.00    7.745e-16     0.00    1.450e-15     0.00    2.681e-15     0.00
   ----->  z5Go            1.981143     4.092781    1.322e-14     0.00    1.361e-14     0.00    1.977e-14     0.00    3.085e-14     0.00    4.826e-14     0.00
@@ -234,7 +234,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  h5F             5.673517     0.400408    6.624e-13     0.00    4.440e-13     0.00    3.853e-13     0.00    3.561e-13     0.00    3.386e-13     0.00
 
 
-  Mn+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Mn+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Mn+.a7S                 0.000000
   ----->  z8Po            2.302634     4.377209    1.580e-12     0.00    1.380e-12     0.00    1.650e-12     0.00    2.150e-12     0.00    2.850e-12     0.00
   ----->  z6Po            3.073816     3.606027    8.320e-11     0.03    6.550e-11     0.04    6.900e-11     0.05    7.830e-11     0.06    9.110e-11     0.08
@@ -249,7 +249,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  g6S             6.311415     0.368428    6.340e-14     0.00    4.290e-14     0.00    3.730e-14     0.00    3.460e-14     0.00    3.290e-14     0.00
 
 
-  Fe+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Fe+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Fe+.a6D                 0.000000
   ----->  z7Do            2.383100     4.765173    1.337e-16     0.00    1.540e-16     0.00    2.690e-16     0.00    5.210e-16     0.00    1.001e-15     0.00
   ----->  z7Fo            2.792744     4.355529    1.132e-13     0.00    1.024e-13     0.00    1.286e-13     0.00    1.772e-13     0.00    2.485e-13     0.00
@@ -282,7 +282,7 @@ At. num | Sp. Name  | Ground Shells (a) | Ground Level | Ionized Level     | Ion
   ----->  6s.5D           6.751063     0.397210    1.289e-14     0.00    8.840e-15     0.00    7.720e-15     0.00    7.160e-15     0.00    6.830e-15     0.00
 
 
-  Rb+H                       E[eV]      KER[eV]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]     Rate[-1]    BF[%]
+  Rb+H                       E[eV]      KER[eV]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]    Rate[s-1]    BF[%]
   Rb+                     0.000000
   ----->  5s              0.000000     3.422933    1.350e-11     0.01    1.180e-11     0.01    1.390e-11     0.02    1.750e-11     0.02    2.250e-11     0.03
   ----->  5p              1.559473     1.863460    1.370e-08     8.51    9.950e-09     9.59    9.510e-09    10.76    9.720e-09    11.96    1.020e-08    13.20
