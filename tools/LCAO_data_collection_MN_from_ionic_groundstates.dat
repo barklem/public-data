@@ -7,7 +7,7 @@ The data set is limited to the Mutual Neutralization channel starting from ions 
 where A* denotes the atom in a possibly excited state and E_KER is the kinetic energy release in the reaction.
 
 Kinetic energy releases can be derived from the listed energy levels (which are LS-term averaged energies) through
-   E_KER = E_i(A) - E_ea(H) + E_LS(A)
+   E_KER = E_i(A) - E_ea(H) - E_LS(A)
 where E_i is the (first) ionization energy of atom A (should be between term-averaged levels), E_ea is the
 electron affinity of hydrogen and E_LS the term-averaged excitation energy of atom A.
 
