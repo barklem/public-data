@@ -12,7 +12,7 @@ where E_i is the (first) ionization energy of atom A (should be between term-ave
 electron affinity of hydrogen and E_LS the term-averaged excitation energy of atom A.
 
 Note that these rates, and the derived branching fractions, asssume a Maxwellian velocity distribution
-of the reactants, and are thus mainly valid for such environments.
+of the reactants.
 
 References: see list under inelastic collisions at: https://github.com/barklem/public-data
 
