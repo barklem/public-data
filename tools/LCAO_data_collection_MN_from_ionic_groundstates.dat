@@ -2,7 +2,7 @@
 Collection of rates and branching fractions of atom-hydrogen collisions at low energies by Barklem and collegues
 (Uppsala University) determined from the LCAO model.
 
-The data set is limited to the Mutual Neutralization channel starting from ions in their ground state,
+The data set is limited to Mutual Neutralization channels starting from ions in their ground state,
    A+ + H-  --->  A* + H + E_KER
 where A* denotes the atom in a possibly excited state and E_KER is the kinetic energy release in the reaction.
 
