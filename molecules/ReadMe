@@ -1,3 +1,24 @@
+Important note:  In the paper and the corresponding published data, I neglected to document which process the equilibrium constants for molecules correspond to.  For example, CO+ could form via:
+
+C+ + O -> CO+   (1)
+or
+C + O+ -> CO+   (2)
+
+or even 
+C + O -> CO+ + e   (3)
+
+or some other possibility, and each has its own corresponding equilibrium constant.
+
+This paper always gives data for the two body process that was judged most energetically likely, and the atomic species forming the molecule are given in columns two and three of table 1.  So for example:
+
+  CO+   C+    O    8.338000       ---    8.365400  0.008700    8.355000       ---    8.365400  0.008700
+
+The given dissociation energy and thus the equilibrium constant correspond to the process (1) above, and thus the provided equilibrium constant is
+
+pK =   p(C+) p(O) / p(CO+).
+
+Readme from CDS and paper:
+
 J/A+A/vol/page     Partition functions for molecules and atoms  (Barklem+, 2016)
 ================================================================================
 Partition functions and equilibrium constants for diatomic molecules and atoms 
