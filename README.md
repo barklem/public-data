@@ -1,13 +1,13 @@
 # public-data
 
-Some published and unpublished data, provided in electronic form.  Please refer to the relevant papers (listed with the data) for descriptions and cite as appropriate. 
+Some published and unpublished data, provided in electronic form.  Please refer to the relevant papers (listed with the data) for descriptions and cite as appropriate.
 
 <p>
 
 Index:
 <ul>
 <li> <a href="#ad">Atomic and molecular data</a>
-<ul> 
+<ul>
 <li> Collisional broadening by hydrogen
 <li> Inelastic electron collision data
 <li> Inelastic hydrogen collision data
@@ -25,7 +25,7 @@ Index:
 <ul>
 <li> HERES survey
 </ul>
-</ul> 
+</ul>
 
 <spacer type="vertical" size=20>
 <a name="ad">
@@ -39,13 +39,13 @@ Index:
 <li> Data for 4891 spectral lines between 2300 and 13000 Angstroms of elements from Li to Ni  
 
 
-(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-neutral">broadening-neutral</a>) <p>	
+(directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-neutral">broadening-neutral</a>) <p>
 
 Published in <a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2000A%26AS..142..467B" target="_top">Barklem et al (2000)</a> and are incorporated in VALD.<p>
 
 Due to its low loggf, we missed Mg I 4571.  A specific calculation using Thomas-Fermi-Dirac wave functions gives sigma (10000 m/s) = 231 atomic units, alpha = 0.260.<p>
 
-<li> Data for Fe II and Cr II lines 
+<li> Data for Fe II and Cr II lines
 
 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/broadening-ionised">broadening-ionised</a>) <p>
@@ -92,24 +92,24 @@ Published in <a href="https://arxiv.org/abs/2014A&A...572A.103B">Belyaev et al (
 <li>Data for Ca + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ca+H">inelastic-Ca+H</a>)
 
 Published in <a href="http://esoads.eso.org/abs/2016PhRvA..93d2705B">Barklem (2016)</a>, with an <a href="http://esoads.eso.org/abs/2017PhRvA..95f9906B">erratum</a>.<p>
-  
+
 <li>Data for O + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-O+H">inelastic-O+H</a>)
 
 Published in <a href="https://arxiv.org/abs/1712.01166">Barklem (2017)</a>.<p>
- 
+
 <li>Data for K + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-K+H">inelastic-K+H</a>)
 <li>Data for Rb + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Rb+H">inelastic-Rb+H</a>)
 
 LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovleva et al. (2018)</a>.  Note, the fluctuations provided here only use the LCAO and SEMI-EMP models.<p>
-  
+
 <li> Data for C + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-C+H">inelastic-C+H</a>)
 <li> Data for N + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-N+H">inelastic-N+H</a>)
 
 Published in [Amarsi & Barklem (2019)](https://doi.org/10.1051/0004-6361/202037890).
 
-<li> Data for Mn + H inelastic collisions 
+<li> Data for Mn + H inelastic collisions
 (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mn+H">inelastic-Mn+H</a>)
-<li> Data for Ti + H inelastic collisions 
+<li> Data for Ti + H inelastic collisions
 (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ti+H">inelastic-Ti+H</a>)
 
 Published in [Grumer & Barklem (2020)](https://doi.org/10.1051/0004-6361/201937434).
@@ -124,6 +124,7 @@ Published in [Grumer & Barklem (2020)](https://doi.org/10.1051/0004-6361/2019374
 
 <ul>
 <li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated and published in <a href="http://esoads.eso.org/abs/2016A%26A...588A..96B">Barklem & Collet (2016)</a>
+<p>
 
 Small correction to some data November 2022 - see ReadMe and ReadMe_Bug_fix_Oct-Nov2022.
 </ul>
@@ -146,13 +147,13 @@ High resolution observed optical spectra for 118 nearby stars from the Spectrosc
 </a>
 
 <spacer type="vertical" size=20>
-<H4>Hydrogen line grids</H4> 
+<H4>Hydrogen line grids</H4>
 
 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/hydrogen-line-grids">hydrogen-line-grids</a>) <p>
 
 <ul>
-<li> F,G, and K dwarfs, <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s 
+<li> F,G, and K dwarfs, <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s
 <li> F,G, and K dwarfs, with alpha-enhancement <br>Teff: 4400 to 7500 K, logg: 3.4 to 5.0, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s (with alpha enhancement of +0.4 dex)
 <li> G and K giants, <br>Teff: 4400 to 6000 K, logg: 1.0 to 3.4, [Fe/H]: -3.0 to +0.5, microturbulence: 1.5 km/s
 <li> Metal-poor giants, with alpha-enhancement <br>Teff: 4500 to 5500 K, logg: 1.0 to 3.0, [Fe/H]: -3.0 to -2.0, microturbulence: 1.5 km/s (with alpha enhancement of +0.4 dex)
@@ -181,13 +182,13 @@ The codes used for these line formation calculations are available <a href="http
 </a>
 
 <spacer type="vertical" size=20>
-<H4>HERES survey</H4> 
+<H4>HERES survey</H4>
 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/HERES">HERES</a>) <p>
 
 These are the data obtained in the HERES survey <a href="http://adsabs.harvard.edu/abs/2005A%26A...439..129B">Barklem et al (2005)</a>.   Table 1 is the stellar sample (coordinates and radial velocities) and Table 2 the derived stellar properties (parameters, chemical abundances).
 <p>
-I have also derived upper limits for the sample in two ways. I provide both cases in case they are useful, but would recommend using the second file. 
+I have also derived upper limits for the sample in two ways. I provide both cases in case they are useful, but would recommend using the second file.
 <p>
 <ul>
 <li> HERESII_abunds_upp.txt  gives the abundance at which the most important line in the spectrum may be detected at 3 sigma significance level, and thus is an upper limit if the element is undetected in the HERES II paper.  Only one case has no data (HE1256-0228 for Y) in the table (it has a NaN in fact).  This is because the Y line I use for the upper limit is near the blue cutoff for the spectra, and in this particular case there are no observations at this wavelength (probably due to a large radial velocity of the star).  But this is not an issue anyway as Y is detected in this star in any case. <br>
