@@ -29,7 +29,7 @@ Index:
 
 <spacer type="vertical" size=20>
 <a name="ad">
-<H3>Atomic data</H3>
+<H3>Atomic and molecular data</H3>
 </a>
 
 <spacer type="vertical" size=20>
@@ -105,14 +105,14 @@ LCAO model data from <a href="https://arxiv.org/abs/2018MNRAS.473.3810Y">Yakovle
 <li> Data for C + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-C+H">inelastic-C+H</a>)
 <li> Data for N + H inelastic collisions (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-N+H">inelastic-N+H</a>)
 
-Published in [Amarsi & Barklem (2019, accepted for A&A)](https://doi.org/10.1051/0004-6361/202037890).
+Published in [Amarsi & Barklem (2019)](https://doi.org/10.1051/0004-6361/202037890).
 
 <li> Data for Mn + H inelastic collisions 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Mn+H">inelastic-Mn+H</a>)
 <li> Data for Ti + H inelastic collisions 
 (directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-Ti+H">inelastic-Ti+H</a>)
 
-Published in [Grumer & Barklem (2020, accepted for A&A)](https://doi.org/10.1051/0004-6361/201937434).
+Published in [Grumer & Barklem (2020)](https://doi.org/10.1051/0004-6361/201937434).
 
 </ul>
 
@@ -120,10 +120,12 @@ Published in [Grumer & Barklem (2020, accepted for A&A)](https://doi.org/10.1051
 <H4>Partition functions</H4>
 
 
-(directory: <a href="https://github.com/barklem/public-data/tree/master/molecules">molecules</a>) <p>
+(directory: <a href="https://github.com/barklem/public-data/tree/master/partition-functions_and_equilibrium-constants">partition-functions_and_equilibrium-constants</a>) <p>
 
 <ul>
 <li>Partition functions and equilibrium constants for diatomic molecules and atoms of astrophysical interest calculated and published in <a href="http://esoads.eso.org/abs/2016A%26A...588A..96B">Barklem & Collet (2016)</a>
+
+Small correction to some data November 2022 - see ReadMe and ReadMe_Bug_fix_Oct-Nov2022.
 </ul>
 
 <spacer type="vertical" size=20>
