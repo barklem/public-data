@@ -1,0 +1,88 @@
+Bug fix Oct-Nov 2022
+Paul Barklem
+
+It was pointed out by Adam Wheeler that the Na I partition function differs from NIST at high T, despite no update to energy level data.  Problem was an incorrect conversion of non-integer J values from string to number in cases with multiple J values with same energy.  e.g.  level in Na I:
+
+7/2,9/2 |              37059.54       |
+
+i.e. in read_atom.pro, such cases were converted with:
+
+j[ns] = double(str_j_arr[i])  
+
+and this led to 7/2 -> 7, and thus J, and therefore the statistical weight was roughly a factor 2 too high.
+
+The function eval_frac should have been applied, i.e.:
+
+; case 2: range of J values, separated by commas or dashes
+; note: case str_j='---' is excluded by if statement above;
+; note: there appears not to be situations where energy
+;       information is missing in the data for this particular case
+
+              if (~has_or) then begin
+                 has_dash  = (strpos(str_j, '-') gt -1)
+                 has_comma = (strpos(str_j, ',') gt -1)
+                 if (has_dash or has_comma) then begin
+                    if (do_debug) then $
+                       print, '% '+IdStr+': string has a range of Js separated by commas or dashes'
+; first, replace all dashes with commas   PB2022 - I don't find any such cases
+                    str_j  = strjoin(strsplit(str_j, '-', /extract), ',')
+; then separate substrings assuming commas as separator
+                    str_j_arr = strsplit(str_j, ',', /extract, count=nsplit)
+                    for i=0L,nsplit-1 do begin
+                       E[ns] = double(str_e)
+                       ;j[ns] = double(str_j_arr[i])   ;BUG FIX PB2022 - missing eval_frac function
+                       j[ns] = double(eval_frac(str_j_arr[i]))
+                       term[ns] = iterm
+                       ionstage[ns] = iion
+                       ns = ns + 1
+                    endfor
+                 endif 
+              endif             ; ~has_or
+
+
+Here are the cases where the partition function changes due to the bug (within numerical precision) at 10000 K, showing the relative difference:  
+
+ B_I   -3.51e-03
+B_III   -2.21e-16
+Na_I   -1.75e-01
+ K_I   -6.38e-12
+ Y_I   -1.86e-04
+Y_III   -7.15e-09
+Rh_I   -1.59e-03
+Ag_I   -6.14e-03
+In_I   -8.44e-03
+In_II   -2.19e-11
+Sn_II   -2.91e-06
+Sb_I   -1.36e-04
+Sb_II   -2.86e-10
+ I_I   -5.14e-05
+La_I   -1.30e-04
+Yb_II   -4.44e-05
+Lu_I   -2.71e-03
+Tl_I   -4.47e-02
+Pb_II   -5.14e-06
+Ra_II   -1.01e-03
+
+So there are two cases above 1% - Na I ~ 17%, and Tl I ~ 4%.
+
+At 5000 K:
+
+ B_I   -2.72e-07
+Na_I   -1.85e-03
+ Y_I   -8.18e-07
+Rh_I   -2.16e-06
+Ag_I   -1.69e-06
+In_I   -2.59e-05
+Sn_II   -5.97e-13
+Sb_I   -1.29e-08
+ I_I   -2.15e-10
+La_I   -2.45e-07
+Yb_II   -8.03e-10
+Lu_I   -2.22e-05
+Tl_I   -9.25e-05
+Pb_II   -1.11e-12
+Ra_II   -9.67e-08
+
+(some cases disappearing as relative difference is zero to precision of calculations).  All are below 0.2%.
+
+So the main difference is for Na.  

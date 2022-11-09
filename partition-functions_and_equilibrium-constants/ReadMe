@@ -1,4 +1,10 @@
-Important note:  In the paper and the corresponding published data, I neglected to document which process the equilibrium constants for molecules correspond to.  For example, CO+ could form via:
+Bug fix: (November 2022)
+
+It was pointed out by Adam Wheeler that the Na I partition function differs from NIST at high T, despite no update to energy level data.  This was due to a small bug in the code that handled states with multiple J values.  It affects 20 atomic species, but only Na I and Tl I are affected by more than 1% at 10000 K (~17% for Na I and ~4% for Tl I), and all effects are less than 0.2% at 5000 K.  Updates for atomic partition functions are given in table8_vNov2022.dat.  Updated equilibrium constants, which depend on atomic partition functions, are given in table7_vNov2022.dat.  The bug and effects are described in more detail in the file ReadMe_Bug_fix_Oct-Nov2022.
+
+Important note:  (added April 2021)  
+
+In the paper and the corresponding published data, I neglected to document which process the equilibrium constants for molecules correspond to.  For example, CO+ could form via:
 
 C+ + O -> CO+   (1)
 or
@@ -16,6 +22,8 @@ This paper always gives data for the two body process that was judged most energ
 The given dissociation energy and thus the equilibrium constant correspond to the process (1) above, and thus the provided equilibrium constant is
 
 pK =   p(C+) p(O) / p(CO+).
+
+
 
 Readme from CDS and paper:
 
