@@ -114,9 +114,10 @@ Published in [Amarsi & Barklem (2019)](https://doi.org/10.1051/0004-6361/2020378
 
 Published in [Grumer & Barklem (2020)](https://doi.org/10.1051/0004-6361/201937434).
 
-<li> Data for Eu^+ + H inelastic collisions
-(directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-(Eu^+)+H">inelastic-Mn+H</a>)
+<li> Data for Eu^+^ + H inelastic collisions
+(directory: <a href="https://github.com/barklem/public-data/tree/master/inelastic-(Eu+)+H">inelastic-(Eu+)+H</a>)
 
+Used in [Storm et al 2024] (https://doi.org/10.1051/0004-6361/202348971).
 </ul>
 
 <spacer type="vertical" size=20>
